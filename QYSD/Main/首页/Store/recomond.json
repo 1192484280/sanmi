@@ -1,0 +1,68 @@
+{
+    "list": [{
+             "uid": "1",
+             "storeName":"爱马仕",
+             "storeLogo":"",
+             "title": "春秋出行必备",
+             "oldPrice": "1999.00",
+             "nowPrice": "988.88",
+             "people": "6245",
+             "img_width": "240",
+             "img_height": "240",
+             "img": "http://lc-4cjyhep8.cn-n1.lcfile.com/6953f454ffa91d1cfa4a/img_searchListGods.jpg",
+             "coupon":"15",
+             "reward":"4.35"
+    }, {
+        "uid": "2",
+        "storeName":"米芾",
+        "storeLogo":"",
+        "title": "智能精准电子体重秤",
+        "oldPrice": "39.60",
+        "nowPrice": "24.60",
+        "people": "3896",
+        "img_width": "240",
+        "img_height": "240",
+        "img": "http://lc-4cjyhep8.cn-n1.lcfile.com/d1bda5362502c2659a9e/71566892527_.pic.jpg",
+        "coupon":"15",
+        "reward":"4.35"
+    }, {
+        "uid": "3",
+        "storeName":"屈臣氏",
+        "storeLogo":"",
+        "title": "生姜防脱发洗发水500ml",
+        "oldPrice": "168.50",
+        "nowPrice": "98.80",
+        "people": "1235",
+        "img_width": "240",
+        "img_height": "240",
+        "img": "http://lc-4cjyhep8.cn-n1.lcfile.com/6953f454ffa91d1cfa4a/img_searchListGods.jpg",
+        "coupon":"15",
+        "reward":"4.35"
+    }, {
+        "uid": "4",
+        "storeName":"古松",
+        "storeLogo":"",
+        "title": "新鲜古田银耳*800g",
+        "oldPrice": "87.50",
+        "nowPrice": "45.00",
+        "people": "4568",
+        "img_width": "240",
+        "img_height": "240",
+        "img": "http://lc-4cjyhep8.cn-n1.lcfile.com/d1bda5362502c2659a9e/71566892527_.pic.jpg",
+        "coupon":"15",
+        "reward":"4.35"
+    }, {
+        "uid": "5",
+        "storeName":"apple",
+        "storeLogo":"",
+        "title": "19新款mac pro教育款",
+        "oldPrice": "11600.00",
+        "nowPrice": "10300.00",
+        "people": "1368",
+        "img_width": "240",
+        "img_height": "240",
+        "img": "http://lc-4cjyhep8.cn-n1.lcfile.com/6953f454ffa91d1cfa4a/img_searchListGods.jpg",
+        "coupon":"15",
+        "reward":"4.35"
+    }]
+}

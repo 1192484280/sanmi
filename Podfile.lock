@@ -1,0 +1,191 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - HXPhotoPicker (2.3.1)
+  - IQKeyboardManager (4.0.8)
+  - JAnalytics (2.1.0):
+    - JCore (< 3.0.0, >= 1.2.0)
+  - JCore (2.1.1)
+  - JPush (3.2.2-noidfa):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - KYAnimatedPageControl (1.0.5)
+  - lottie-ios_Oc (0.0.1)
+  - LXMButtonImagePosition (1.2.0)
+  - Masonry (1.0.2)
+  - MFSCache (2.0.1):
+    - MFSJSONEntity
+  - MFSIdentifier (1.0.2):
+    - MFSCache
+  - MFSJSONEntity (1.0.6)
+  - MJExtension (3.1.1)
+  - MJRefresh (3.1.12)
+  - mob_sharesdk (4.3.1):
+    - mob_sharesdk/ShareSDK (= 4.3.1)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.3.1):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.3.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.3.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.4)
+  - NSDictionary-NilSafe (0.2.0)
+  - Popover.OC (2.2)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SVProgressHUD (2.2.5)
+  - TFHpple (2.0.0)
+  - TYCyclePagerView (1.2.0)
+  - YBImageBrowser (3.0.4):
+    - YBImageBrowser/Core (= 3.0.4)
+  - YBImageBrowser/Core (3.0.4):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YBImageBrowser/Video (3.0.4):
+    - YBImageBrowser/Core
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BGFMDB (~> 2.0.9)
+  - DZNEmptyDataSet
+  - FDFullscreenPopGesture (= 1.1)
+  - HXPhotoPicker (~> 2.3.1)
+  - IQKeyboardManager
+  - JAnalytics
+  - JPush (= 3.2.2-noidfa)
+  - KYAnimatedPageControl (~> 1.0.5)
+  - lottie-ios_Oc
+  - LXMButtonImagePosition (~> 1.2.0)
+  - Masonry
+  - MFSIdentifier (= 1.0.2)
+  - MJExtension
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - NSDictionary-NilSafe
+  - Popover.OC
+  - SAMKeychain
+  - SDCycleScrollView
+  - SVProgressHUD
+  - TFHpple
+  - TYCyclePagerView
+  - YBImageBrowser
+  - YBImageBrowser/Video
+  - YYCategories
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BGFMDB
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - HXPhotoPicker
+    - IQKeyboardManager
+    - JAnalytics
+    - JCore
+    - JPush
+    - KYAnimatedPageControl
+    - lottie-ios_Oc
+    - LXMButtonImagePosition
+    - Masonry
+    - MFSCache
+    - MFSIdentifier
+    - MFSJSONEntity
+    - MJExtension
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - NSDictionary-NilSafe
+    - Popover.OC
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - TFHpple
+    - TYCyclePagerView
+    - YBImageBrowser
+    - YYCategories
+    - YYImage
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HXPhotoPicker: 3845637c6a6e98ebf5bfad5ed67bcab8ce3786c2
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JAnalytics: 3ae37a36b02cd06543c4d5a008a37470f577ec50
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: d7e9b68edde1e4061e8a61605049b1673cd89df2
+  KYAnimatedPageControl: 4b6360b6ed2cad47b757aa11e8903827d2cd2385
+  lottie-ios_Oc: 246311aa2a6106fe03cb34e3e30f8daf7e1e7d9a
+  LXMButtonImagePosition: 663e176be2c7e4ff99bcda808c364ebc3774af0f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MFSCache: 76baaca48f2283669709771967caedb8d0edb4c7
+  MFSIdentifier: abc345c0ae150e00856f3e3bcedcafb257e26c4b
+  MFSJSONEntity: 87c9404c87cb499de26b061f3c985eb7808bef73
+  MJExtension: dfef9855ee178e1ce67f3e03b71ca4226330d87d
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  mob_sharesdk: 1d1951d219fa55021f5599f5295ee71c48178d95
+  MOBFoundation: dd8f319dde9331590d515a1676d27baccc0070e5
+  NSDictionary-NilSafe: 3df5056bf920974cb9822ed24bfc41af44225201
+  Popover.OC: bfcce8307f77593e1e1d7cf58604077f74e114bc
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  YBImageBrowser: c02f42bbc89955f5a88ddb57e0b94ff9fdbee461
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 88fa4981d2fbcf8505919edff501bfbf3b471ffe
+
+COCOAPODS: 1.7.5

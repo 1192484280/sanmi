@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecommendMenueCell">
+            <rect key="frame" x="0.0" y="0.0" width="68" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="68" height="77"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PYE-Ed-uFR">
+                        <rect key="frame" x="0.0" y="0.0" width="68" height="77"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jar-ZU-t83">
+                                <rect key="frame" x="18.5" y="57" width="31" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="hIu-7S-N96"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B1l-nd-7Lx">
+                                <rect key="frame" x="14" y="9" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="B1l-nd-7Lx" secondAttribute="height" multiplier="1:1" id="Peb-vt-0RV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Jar-ZU-t83" firstAttribute="centerX" secondItem="PYE-Ed-uFR" secondAttribute="centerX" id="Hls-Kg-xaW"/>
+                            <constraint firstAttribute="bottom" secondItem="Jar-ZU-t83" secondAttribute="bottom" constant="5" id="c0E-Qh-59U"/>
+                            <constraint firstItem="B1l-nd-7Lx" firstAttribute="centerX" secondItem="PYE-Ed-uFR" secondAttribute="centerX" id="hnR-MU-axt"/>
+                            <constraint firstItem="B1l-nd-7Lx" firstAttribute="top" secondItem="PYE-Ed-uFR" secondAttribute="top" constant="9" id="l0T-nW-pV8"/>
+                            <constraint firstItem="Jar-ZU-t83" firstAttribute="top" secondItem="B1l-nd-7Lx" secondAttribute="bottom" constant="8" id="mWx-H1-SUg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PYE-Ed-uFR" secondAttribute="bottom" id="0L0-cv-Ubu"/>
+                <constraint firstItem="PYE-Ed-uFR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5xM-0G-bFf"/>
+                <constraint firstAttribute="trailing" secondItem="PYE-Ed-uFR" secondAttribute="trailing" id="628-SM-3O9"/>
+                <constraint firstItem="PYE-Ed-uFR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bO7-NM-S75"/>
+            </constraints>
+            <size key="customSize" width="68" height="77"/>
+            <connections>
+                <outlet property="im" destination="B1l-nd-7Lx" id="2o6-H8-4EL"/>
+                <outlet property="la" destination="Jar-ZU-t83" id="gub-Z5-aaq"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="92.745535714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>

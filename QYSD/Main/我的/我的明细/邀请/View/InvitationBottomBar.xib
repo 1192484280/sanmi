@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InvitationViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bp-yf-Sd3">
+                    <rect key="frame" x="14" y="5" width="186" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.72156862745098038" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Gwt-fk-qNN"/>
+                    </constraints>
+                    <state key="normal" title="复制淘口令">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="onCopyBtn:" destination="-1" eventType="touchUpInside" id="jwv-gv-XjG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rX-rj-frp">
+                    <rect key="frame" x="214" y="5" width="186" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.14901960780000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="分享邀请海报">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="onShareBtn:" destination="-1" eventType="touchUpInside" id="PiX-cF-2qe"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pn1-DU-Usq">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="0.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="xyU-0H-APO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1bp-yf-Sd3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="6QT-Pm-Yw6"/>
+                <constraint firstAttribute="trailing" secondItem="4rX-rj-frp" secondAttribute="trailing" constant="14" id="7K2-JP-svm"/>
+                <constraint firstItem="4rX-rj-frp" firstAttribute="width" secondItem="1bp-yf-Sd3" secondAttribute="width" id="W96-dZ-r4i"/>
+                <constraint firstAttribute="trailing" secondItem="pn1-DU-Usq" secondAttribute="trailing" id="ZIM-yy-KbW"/>
+                <constraint firstItem="4rX-rj-frp" firstAttribute="top" secondItem="1bp-yf-Sd3" secondAttribute="top" id="dx6-OO-GAj"/>
+                <constraint firstItem="4rX-rj-frp" firstAttribute="leading" secondItem="1bp-yf-Sd3" secondAttribute="trailing" constant="14" id="hT8-89-D8M"/>
+                <constraint firstItem="4rX-rj-frp" firstAttribute="bottom" secondItem="1bp-yf-Sd3" secondAttribute="bottom" id="icM-kY-Jcw"/>
+                <constraint firstItem="pn1-DU-Usq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ryE-Xe-XPi"/>
+                <constraint firstItem="pn1-DU-Usq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uSu-VJ-jgW"/>
+                <constraint firstItem="1bp-yf-Sd3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="xsP-oN-Hwm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="204.34782608695653" y="-2041.40625"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CELL" rowHeight="126" id="35x-8c-HG3" customClass="MyPartnerMoreDataCell">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="35x-8c-HG3" id="uAj-1K-Se6">
+                <rect key="frame" x="0.0" y="0.0" width="376" height="125.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上月佣金结算预估" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMX-ae-uY3">
+                        <rect key="frame" x="14" y="10" width="128" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="V0v-76-Ryn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" red="0.89975297450000002" green="0.4006040394" blue="0.39214009049999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eDy-Km-bjS">
+                        <rect key="frame" x="0.0" y="41" width="376" height="0.5"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="bi2-fc-FhF"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxJ-aq-fvK">
+                        <rect key="frame" x="0.0" y="61.5" width="125.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="OfQ-FE-XHG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4q-qQ-IF3">
+                        <rect key="frame" x="125.5" y="61.5" width="125" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="UVD-1Q-F0T"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xD-iC-hbS">
+                        <rect key="frame" x="250.5" y="61.5" width="125.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="DLF-w1-4de"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="奖励结算" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvv-Fc-KTk">
+                        <rect key="frame" x="0.0" y="84.5" width="125.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="zkv-d9-aLA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="付款单数" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVK-G5-rIH">
+                        <rect key="frame" x="250.5" y="84.5" width="125.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VHy-qc-4K3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kik-R7-oFV">
+                        <rect key="frame" x="125.5" y="61.5" width="0.5" height="43"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="yzS-jS-N7g"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fMy-zo-z7h">
+                        <rect key="frame" x="250.5" y="61.5" width="0.5" height="43"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="hh1-zP-kvN"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="奖励预估" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2b-eK-vbI">
+                        <rect key="frame" x="125.5" y="84.5" width="125" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="GWa-hI-tsc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1xD-iC-hbS" firstAttribute="width" secondItem="RxJ-aq-fvK" secondAttribute="width" id="2lA-9s-oQu"/>
+                    <constraint firstItem="W4q-qQ-IF3" firstAttribute="leading" secondItem="RxJ-aq-fvK" secondAttribute="trailing" id="7Ao-DM-xdV"/>
+                    <constraint firstAttribute="trailing" secondItem="1xD-iC-hbS" secondAttribute="trailing" id="8RE-0j-ulV"/>
+                    <constraint firstItem="u2b-eK-vbI" firstAttribute="top" secondItem="Mvv-Fc-KTk" secondAttribute="top" id="9mi-f4-0rv"/>
+                    <constraint firstItem="fMy-zo-z7h" firstAttribute="bottom" secondItem="cVK-G5-rIH" secondAttribute="bottom" id="EKP-Gu-sKb"/>
+                    <constraint firstItem="sMX-ae-uY3" firstAttribute="top" secondItem="uAj-1K-Se6" secondAttribute="top" constant="10" id="FSU-zl-HLi"/>
+                    <constraint firstItem="cVK-G5-rIH" firstAttribute="leading" secondItem="u2b-eK-vbI" secondAttribute="trailing" id="Glc-76-v2B"/>
+                    <constraint firstAttribute="trailing" secondItem="eDy-Km-bjS" secondAttribute="trailing" id="MJR-UP-Hiq"/>
+                    <constraint firstItem="RxJ-aq-fvK" firstAttribute="leading" secondItem="uAj-1K-Se6" secondAttribute="leading" id="PV4-mg-jgD"/>
+                    <constraint firstItem="RxJ-aq-fvK" firstAttribute="top" secondItem="eDy-Km-bjS" secondAttribute="bottom" constant="20" id="QHX-qP-0af"/>
+                    <constraint firstItem="u2b-eK-vbI" firstAttribute="leading" secondItem="Mvv-Fc-KTk" secondAttribute="trailing" id="SMp-fF-Ozt"/>
+                    <constraint firstItem="kik-R7-oFV" firstAttribute="leading" secondItem="RxJ-aq-fvK" secondAttribute="trailing" id="UD5-Af-H77"/>
+                    <constraint firstItem="W4q-qQ-IF3" firstAttribute="top" secondItem="RxJ-aq-fvK" secondAttribute="top" id="X0A-RK-3tn"/>
+                    <constraint firstItem="Mvv-Fc-KTk" firstAttribute="top" secondItem="RxJ-aq-fvK" secondAttribute="bottom" constant="3" id="Y0j-wk-cG7"/>
+                    <constraint firstItem="fMy-zo-z7h" firstAttribute="leading" secondItem="W4q-qQ-IF3" secondAttribute="trailing" id="bM7-YT-Srd"/>
+                    <constraint firstItem="kik-R7-oFV" firstAttribute="top" secondItem="RxJ-aq-fvK" secondAttribute="top" id="ccN-Ld-zVw"/>
+                    <constraint firstItem="1xD-iC-hbS" firstAttribute="leading" secondItem="W4q-qQ-IF3" secondAttribute="trailing" id="doO-9S-XJb"/>
+                    <constraint firstItem="Mvv-Fc-KTk" firstAttribute="leading" secondItem="uAj-1K-Se6" secondAttribute="leading" id="g5g-RZ-JUX"/>
+                    <constraint firstItem="eDy-Km-bjS" firstAttribute="top" secondItem="sMX-ae-uY3" secondAttribute="bottom" constant="10" id="gdk-ye-f6f"/>
+                    <constraint firstItem="u2b-eK-vbI" firstAttribute="width" secondItem="Mvv-Fc-KTk" secondAttribute="width" id="iC7-Hh-d9G"/>
+                    <constraint firstItem="W4q-qQ-IF3" firstAttribute="width" secondItem="RxJ-aq-fvK" secondAttribute="width" id="jNx-90-xJd"/>
+                    <constraint firstItem="1xD-iC-hbS" firstAttribute="top" secondItem="RxJ-aq-fvK" secondAttribute="top" id="jPG-mp-dup"/>
+                    <constraint firstItem="eDy-Km-bjS" firstAttribute="leading" secondItem="uAj-1K-Se6" secondAttribute="leading" id="jbB-lz-2r6"/>
+                    <constraint firstItem="cVK-G5-rIH" firstAttribute="width" secondItem="Mvv-Fc-KTk" secondAttribute="width" id="lzO-1a-KW0"/>
+                    <constraint firstItem="cVK-G5-rIH" firstAttribute="top" secondItem="Mvv-Fc-KTk" secondAttribute="top" id="o8V-TF-71H"/>
+                    <constraint firstItem="fMy-zo-z7h" firstAttribute="top" secondItem="1xD-iC-hbS" secondAttribute="top" id="scw-rc-y8O"/>
+                    <constraint firstItem="kik-R7-oFV" firstAttribute="bottom" secondItem="Mvv-Fc-KTk" secondAttribute="bottom" id="t7B-HK-op7"/>
+                    <constraint firstItem="sMX-ae-uY3" firstAttribute="leading" secondItem="uAj-1K-Se6" secondAttribute="leading" constant="14" id="vVW-H3-xqz"/>
+                    <constraint firstAttribute="trailing" secondItem="cVK-G5-rIH" secondAttribute="trailing" id="yX6-jI-XYP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Rwx-Kc-4bs"/>
+            <connections>
+                <outlet property="fkdsLa" destination="1xD-iC-hbS" id="CdP-gg-NuX"/>
+                <outlet property="jljsLa" destination="RxJ-aq-fvK" id="5s4-j5-l1m"/>
+                <outlet property="jlygLa" destination="W4q-qQ-IF3" id="Q3D-BQ-GLA"/>
+                <outlet property="titleLa" destination="sMX-ae-uY3" id="BLY-C3-AQt"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="84.375"/>
+        </tableViewCell>
+    </objects>
+</document>

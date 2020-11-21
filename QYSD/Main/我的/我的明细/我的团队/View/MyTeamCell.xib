@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="105" id="KGk-i7-Jjw" customClass="MyTeamCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="104.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_header_place" translatesAutoresizingMaskIntoConstraints="NO" id="0G3-U2-Xu6">
+                        <rect key="frame" x="14" y="14" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="43N-4J-3oo"/>
+                            <constraint firstAttribute="width" constant="55" id="oam-Wp-ba4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="25.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glJ-y1-jC2">
+                        <rect key="frame" x="79" y="14" width="31" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="176****7323" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twa-LJ-cRI">
+                        <rect key="frame" x="79" y="45" width="76" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019-01-01 12:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wq7-Ri-z0E">
+                        <rect key="frame" x="212" y="45" width="128" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="他的有效二当家 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ll5-0a-4VG">
+                        <rect key="frame" x="79" y="74" width="105" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrt-04-Iaz">
+                        <rect key="frame" x="285" y="10.5" width="55" height="25"/>
+                        <color key="backgroundColor" red="0.69296234846115112" green="0.61776769161224365" blue="0.47448557615280151" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="EEX-SE-xyd"/>
+                            <constraint firstAttribute="width" constant="55" id="ojb-p8-Bwo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="二当家">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="12.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="他的有效三当家 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2t-v1-t9A">
+                        <rect key="frame" x="235" y="74" width="105" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="glJ-y1-jC2" firstAttribute="leading" secondItem="0G3-U2-Xu6" secondAttribute="trailing" constant="10" id="7GW-dO-gCG"/>
+                    <constraint firstItem="glJ-y1-jC2" firstAttribute="top" secondItem="0G3-U2-Xu6" secondAttribute="top" id="AEE-NV-S3P"/>
+                    <constraint firstItem="Y2t-v1-t9A" firstAttribute="trailing" secondItem="Wq7-Ri-z0E" secondAttribute="trailing" id="HON-wH-lSt"/>
+                    <constraint firstItem="twa-LJ-cRI" firstAttribute="leading" secondItem="glJ-y1-jC2" secondAttribute="leading" id="dUf-nN-H67"/>
+                    <constraint firstAttribute="trailing" secondItem="rrt-04-Iaz" secondAttribute="trailing" constant="20" id="inr-H5-6i9"/>
+                    <constraint firstItem="twa-LJ-cRI" firstAttribute="top" secondItem="glJ-y1-jC2" secondAttribute="bottom" constant="13" id="lWY-ru-MS3"/>
+                    <constraint firstItem="Y2t-v1-t9A" firstAttribute="centerY" secondItem="Ll5-0a-4VG" secondAttribute="centerY" id="m5Z-RK-bD3"/>
+                    <constraint firstItem="rrt-04-Iaz" firstAttribute="centerY" secondItem="glJ-y1-jC2" secondAttribute="centerY" id="md7-2V-gug"/>
+                    <constraint firstItem="Wq7-Ri-z0E" firstAttribute="centerY" secondItem="twa-LJ-cRI" secondAttribute="centerY" id="pMx-U0-fHO"/>
+                    <constraint firstItem="0G3-U2-Xu6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="qJR-aY-N0g"/>
+                    <constraint firstItem="Ll5-0a-4VG" firstAttribute="top" secondItem="twa-LJ-cRI" secondAttribute="bottom" constant="13" id="srT-52-RYM"/>
+                    <constraint firstItem="Wq7-Ri-z0E" firstAttribute="trailing" secondItem="rrt-04-Iaz" secondAttribute="trailing" id="su0-cE-bBT"/>
+                    <constraint firstItem="0G3-U2-Xu6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="u4a-OZ-GgI"/>
+                    <constraint firstItem="Ll5-0a-4VG" firstAttribute="leading" secondItem="twa-LJ-cRI" secondAttribute="leading" id="zf5-hd-TgU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="160.86956521739131" y="61.272321428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img_header_place" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_QYSD {
+  umbrella header "Pods-QYSD-umbrella.h"
+
+  export *
+  module * { export * }
+}

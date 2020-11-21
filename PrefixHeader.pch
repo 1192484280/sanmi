@@ -1,0 +1,98 @@
+//
+//  PrefixHeader.pch
+//  QYSD
+//
+//  Created by 鹿蒙蒙 on 2019/8/5.
+//  Copyright © 2019 qingyun. All rights reserved.
+// dd
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define AppColor   [UIColor colorWithRGB:0xFFFFFF]
+#define ThemColor  [UIColor colorWithRGB:0xFA6400]
+#define BaseBackGroundColor [UIColor colorWithRGB:0xF4F5F7]
+#define FontColor [UIColor colorWithRGB:0x4A4A4A]
+#define CellLineColor [UIColor colorWithHexString:@"E3E3E3"]
+#define SMOrangeColor [UIColor colorWithHexString:@"FC2F00"]
+
+#define LeftColor [UIColor colorWithHexString:@"F9DF54"]
+#define RightColor [UIColor colorWithHexString:@"FAE56E"]
+
+#define KScreenWidth  ([[UIScreen mainScreen] bounds].size.width)
+#define KScreenHeight ([[UIScreen mainScreen] bounds].size.height)
+#define iPhoneAbsoluteWidth     ([UIScreen mainScreen].bounds.size.width < [UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.width : [UIScreen mainScreen].bounds.size.height)
+#define iPhoneAbsoluteHeight    ([UIScreen mainScreen].bounds.size.width < [UIScreen mainScreen].bounds.size.height ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width)
+
+#define MJWeakSelf __weak typeof(self) weakSelf = self;
+#define MJStrongSelf __strong typeof(self) strongSelf = weakSelf;
+#define ClassName  NSString *className = NSStringFromClass([self class]);
+
+#ifdef DEBUG
+
+#define IP [[[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Api" ofType:@"plist"]] objectForKey:@"IP"] objectForKey:@"DevIP"]
+#define TaoTaoIP [[[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Api" ofType:@"plist"]] objectForKey:@"IP"] objectForKey:@"TaoTaoIP"]
+#else
+
+#define IP [[[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Api" ofType:@"plist"]] objectForKey:@"IP"] objectForKey:@"ReleaseIP"]
+#define TaoTaoIP [[[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Api" ofType:@"plist"]] objectForKey:@"IP"] objectForKey:@"TaoTaoIP"]
+
+#endif
+
+// 判断是否是iPhone X系列
+#define iPhoneX           ([UIScreen mainScreen].bounds.size.height >= 812)
+
+// 状态栏高度
+#define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
+// 导航栏高度
+#define iPhoneX_Top       (iPhoneX ? 88.0f : 64.0f)
+// tabBar高度
+#define TAB_BAR_HEIGHT    (iPhoneX ? (49.f+34.f) : 49.f)
+// home indicator
+#define iPhoneX_Bottom    (iPhoneX ? 34.0f : 0.0f)
+
+#define FONTNAME @"STHeitiSC-Light"
+
+#define PAGESIZE 20
+#define PAGESIZE_Chid 20
+
+//用户标识（1：合伙人 2：团长 3：超级团长）,定义宏，方便以后修改
+#define IDENTITY 1
+
+#define SMUserGuid [[NSUserDefaults standardUserDefaults] objectForKey:@"user_id"]
+#define SMUserNickname [[NSUserDefaults standardUserDefaults] objectForKey:@"user_name"]
+#define SMUserHeadImgUrl [[NSUserDefaults standardUserDefaults] objectForKey:@"user_Im"]
+
+
+#define SMIdentity 1
+
+#import "Masonry.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIButton+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Toast.h"
+#import "CALayer+Addition.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "NSString+Size.h"
+#import "UIView+AZGradient.h"
+#import "QYRefreshHeader.h"
+#import "UIFont+MyFont.h"
+#import "JTImageButton.h"
+#import "SVProgressHUD.h"
+#import "NSString+Valid.h"
+#import "TopLeftLabel.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "YYText.h"
+#import "YYCategories.h"
+#import "NSAttributedString+YYText.h"
+#import "HttpTool.h"
+#import "MJExtension.h"
+#import "NSString+Change.h"
+#endif /* PrefixHeader_pch */
